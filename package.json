@@ -4,7 +4,7 @@
   "description": "",
   "main": "myApp.js",
   "scripts": {
-    "dev": "nodemon --exec babel-node src/myApp.js"
+    "dev": "nodemon --exec babel-node myApp.js"
   },
   "author": "",
   "license": "ISC",
@@ -28,12 +28,15 @@
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "@vitejs/plugin-react": "^4.0.1",
+    "body-parser": "^1.20.2",
     "ejs": "^3.1.9",
     "eslint": "^8.43.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
     "express": "^4.18.2",
+    "express-flash-message": "^3.0.2",
+    "express-session": "^1.17.3",
     "next": "^13.4.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
